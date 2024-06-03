@@ -1,0 +1,10 @@
+! Block Shopify Community survey scripts
+||community.shopify.com/*lia-scripts*$script,domain=community.shopify.com
+
+! Block autoplay video elements
+investopedia.com##.jw-reset.jw-wrapper
+! TODO: Add generic autoplay video blocker
+
+! Block spam sites
+websitebuilderinsider.com
+! TODO: Add filter for listings in Google and DuckDuckGo search results
