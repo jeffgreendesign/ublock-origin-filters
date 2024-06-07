@@ -6,5 +6,13 @@ investopedia.com##.jw-reset.jw-wrapper
 ! TODO: Add generic autoplay video blocker
 
 ! Block spam sites
-websitebuilderinsider.com
-! TODO: Add filter for listings in Google and DuckDuckGo search results
+google.*##.g:has(a[href*="websitebuilderinsider.com"])
+duckduckgo.com###links>.result[data-domain$="websitebuilderinsider.com"]
+google.*##.g:has(a[href*="sfgate.com"])
+duckduckgo.com###links>.result[data-domain$="sfgate.com"]
+
+! Block social media
+twitter.com
+x.com
+facebook.com
+reddit.com
