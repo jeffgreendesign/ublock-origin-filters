@@ -16,3 +16,6 @@ twitter.com
 x.com
 facebook.com
 reddit.com
+
+! Block Google AI Overview (Will likely require frequent updates)
+google.*##[data-hveid="CAIQBQ"]
